@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2025-05-08T09:11:55" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <staffGrp>
+                     <staffDef n="1" lines="5" keysig="1f" meter.count="4" meter.unit="4">
+                        <clef shape="F" line="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <measure xml:id="m1ogr631" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="n1pqk1e6" dur="2" pname="a" oct="3" />
+                           <note xml:id="n1kpooad" dur="2" pname="g" oct="3">
+                              <accid xml:id="a1rrsf3l" accid="s" />
+                           </note>
+                        </layer>
+                     </staff>
+										 <tempo xml:id="mn24f35" staff="1" tstamp="1">Mistico</tempo>
+										 <dir place="below" staff="1" tstamp="1">from “Gerontius”</dir>
+                     <dynam xml:id="da75i95" label="pp" staff="1" startid="#n1pqk1e6">pp</dynam>
+                     <slur xml:id="s1rhi3jk" startid="#n1pqk1e6" endid="#n1kpooad" />
+                  </measure>
+                  <measure xml:id="m17cybes" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <note xml:id="n13pnirh" dots="1" dur="4" pname="a" oct="3" />
+                           <note xml:id="n2xo0j5" dur="8" pname="g" oct="3">
+                              <accid xml:id="a1407m27" accid="n" />
+                           </note>
+                           <note xml:id="n1rz9r64" dur="2" pname="g" oct="3" />
+                        </layer>
+                     </staff>
+                     <slur xml:id="s11xlfgm" startid="#n13pnirh" endid="#n2xo0j5" />
+                  </measure>
+                  <measure xml:id="m1a3h6y5" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <note xml:id="nczi44a" dur="2" pname="f" oct="3" />
+                           <note xml:id="n1eivhgv" dur="4" pname="g" oct="3" />
+                           <note xml:id="njyranb" dur="4" pname="a" oct="3" />
+                        </layer>
+                     </staff>
+                     <slur xml:id="s5w7yxn" startid="#nczi44a" endid="#n1ri3gaq" />
+                     <hairpin xml:id="hw3dfhz" form="cres" staff="1" tstamp="2" tstamp2="5" />
+                  </measure>
+                  <measure xml:id="mrbufx7" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <note xml:id="nw8fzot" dur="4" pname="b" oct="3">
+                              <accid accid.ges="f" />
+                           </note>
+                           <note xml:id="n1wq6b78" dur="4" pname="c" oct="4" />
+                           <note xml:id="n1ri3gaq" dur="2" pname="a" oct="3" />
+                        </layer>
+                     </staff>
+                     <hairpin xml:id="h1ipc72c" form="dim" staff="1" startid="#nw8fzot" endid="#n1ri3gaq" />
+                     <fermata xml:id="ff28ju4" startid="#n1ri3gaq" />
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
